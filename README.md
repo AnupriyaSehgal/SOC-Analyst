@@ -1,2 +1,2 @@
-# SOC-Analyst
-Microsoft Sentinel Practice
+# Microsoft Sentinel SOC Analyst Lab
+
