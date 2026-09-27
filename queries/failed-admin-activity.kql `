@@ -1,1 +1,10 @@
-
+AzureActivity
+| where CategoryValue == "Administrative"
+| where ActivityStatusValue == "Failure"
+| project
+    TimeGenerated,
+    OperationNameValue,
+    Caller,
+    ResourceGroup,
+    ActivityStatusValue
+| order by TimeGenerated desc
