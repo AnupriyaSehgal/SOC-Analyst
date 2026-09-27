@@ -1,1 +1,9 @@
-
+AzureActivity
+| where CategoryValue == "Administrative"
+| where ActivityStatusValue == "Failure"
+| summarize
+    FailureCount=count(),
+    FirstSeen=min(TimeGenerated),
+    LastSeen=max(TimeGenerated)
+    by Caller, OperationNameValue, ResourceGroup
+| order by FailureCount desc
