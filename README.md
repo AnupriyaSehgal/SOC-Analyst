@@ -1,6 +1,5 @@
 # Microsoft Sentinel SOC Analyst Lab
 
-# Microsoft Sentinel SOC Analyst Lab
 
 ## Project Overview
 
