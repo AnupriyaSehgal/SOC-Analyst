@@ -1,1 +1,14 @@
-
+let ApprovedAdmins =
+    _GetWatchlist('ApprovedAdministrators')
+    | project SearchKey;
+AzureActivity
+| where CategoryValue == "Administrative"
+| where ActivityStatusValue == "Failure"
+| where Caller !in (ApprovedAdmins)
+| project
+    TimeGenerated,
+    Caller,
+    OperationNameValue,
+    ResourceGroup,
+    ActivityStatusValue
+| order by TimeGenerated desc
