@@ -160,6 +160,9 @@ The rule was configured to generate alerts when matching failed administrative o
 
 This demonstrated the process of moving from manual log investigation to automated SIEM detection.
 
+
+### Detection Tuning
+The initial detection identifies all failed Azure administrative operations. The tuned version references the ApprovedAdministrators watchlist and excludes known approved administrator accounts, helping reduce expected administrative noise while retaining visibility into activity that may require investigation.
 ---
 
 # 4. Near Real-Time Detection
