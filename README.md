@@ -179,6 +179,16 @@ AzureActivity
     ActivityStatusValue
 | order by TimeGenerated desc
 ```kusto
+
+### MITRE ATT&CK Assessment
+
+The `Failed Azure Administrative Activity` detection was reviewed for MITRE ATT&CK mapping.
+
+No specific MITRE ATT&CK technique was assigned because a failed Azure administrative operation alone does not provide sufficient evidence of a specific adversary technique.
+
+Rather than forcing a mapping for coverage purposes, the detection was intentionally left unmapped until additional telemetry or behavioral context could establish a stronger relationship to a documented ATT&CK technique.
+
+This approach helps ensure that MITRE ATT&CK mappings accurately represent the behavior detected and do not overstate detection coverage.
 ---
 
 # 4. Near Real-Time Detection
