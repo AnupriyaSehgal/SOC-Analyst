@@ -163,7 +163,7 @@ This demonstrated the process of moving from manual log investigation to automat
 
 ### Detection Tuning
 The initial detection identifies all failed Azure administrative operations. The tuned version references the ApprovedAdministrators watchlist and excludes known approved administrator accounts, helping reduce expected administrative noise while retaining visibility into activity that may require investigation.
-
+```kusto
 let ApprovedAdmins =
     _GetWatchlist('ApprovedAdministrators')
     | project SearchKey;
@@ -178,6 +178,7 @@ AzureActivity
     ResourceGroup,
     ActivityStatusValue
 | order by TimeGenerated desc
+```kusto
 ---
 
 # 4. Near Real-Time Detection
