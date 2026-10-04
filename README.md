@@ -376,6 +376,7 @@ This exercise provided exposure to SOAR workflow design while maintaining a safe
 # 10. Threat Hunting
 
 A hypothesis-driven threat hunt was conducted to investigate repeated failed Azure administrative operations.
+![ Threat Hunting ]( screenshots/09-threat-hunting.png )
 
 ### Hunt
 
