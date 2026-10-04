@@ -418,3 +418,4 @@ The activity was reviewed and determined to originate from expected configuratio
 # 11. Watchlist-Based Detection Tuning
 
 An `Approved Administrators
+![ Watchlist ]( screenshots/10-watchlist-tuning.png )
