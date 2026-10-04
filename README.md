@@ -102,6 +102,7 @@ This confirmed that Azure administrative events were successfully reaching the S
 
 screenshots/01-kql-detection.png
 
+
 A detection query was developed to identify failed Azure administrative operations.
 
 ```kusto
