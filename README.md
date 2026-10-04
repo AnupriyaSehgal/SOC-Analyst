@@ -98,7 +98,8 @@ This confirmed that Azure administrative events were successfully reaching the S
 
 ---
 
-# 2. ![ KQL Detection ]( screenshots/01-kql-detection.png )
+# 2. KQL Detection Engineering
+![ KQL Detection ]( screenshots/01-kql-detection.png )
 
 
 
