@@ -321,6 +321,8 @@ Classify Activity
 
 A Microsoft Sentinel automation rule was implemented to automate incident triage.
 
+![ SOC Automation ]( screenshots/07-automation-rule.png )
+
 ### Automation Rule
 
 `Tag Failed Azure Administrative Incidents`
