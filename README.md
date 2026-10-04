@@ -225,6 +225,8 @@ The custom analytics rule successfully generated an alert and corresponding inci
 
 ### Incident
 
+![ Incident ]( screenshots/04-security-incident.png )
+
 `Failed Azure Administrative Activity`
 
 The incident demonstrated an end-to-end detection pipeline:
