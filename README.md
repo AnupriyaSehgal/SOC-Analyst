@@ -255,6 +255,7 @@ Microsoft Defender Incident
 # 6. Entity Mapping and Incident Enrichment
 
 ![ Entity Mapping ]( screenshots/05-entity-mapping.png )
+![ Entity Enrichment ]( screenshots/06-entity-enrichment.png )
 
 The original incident did not contain an identified account entity.
 
