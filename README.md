@@ -138,6 +138,7 @@ Identify unsuccessful Azure administrative operations that could represent:
 ---
 
 # 3. Scheduled Analytics Rule
+![ Scheduled Analytics Rule ]( screenshots/02-scheduled-analytics-rule.png )
 
 The tested KQL detection was converted into a custom Scheduled Analytics Rule.
 
