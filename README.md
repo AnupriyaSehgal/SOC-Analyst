@@ -254,6 +254,8 @@ Microsoft Defender Incident
 
 # 6. Entity Mapping and Incident Enrichment
 
+![ Entity Mapping ]( screenshots/05-entity-mapping.png )
+
 The original incident did not contain an identified account entity.
 
 To improve investigation context, entity mapping was added to the analytics rule:
