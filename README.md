@@ -99,6 +99,9 @@ This confirmed that Azure administrative events were successfully reaching the S
 ---
 
 # 2. KQL Detection Engineering
+### Detection Evidence
+
+screenshots/01-kql-detection.png
 
 A detection query was developed to identify failed Azure administrative operations.
 
