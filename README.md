@@ -419,3 +419,21 @@ The activity was reviewed and determined to originate from expected configuratio
 
 An `Approved Administrators
 ![ Watchlist ]( screenshots/10-watchlist-tuning.png )
+
+
+## Microsoft Sentinel SOC Monitoring Dashboard
+
+A custom Microsoft Sentinel Workbook was created to transform Azure Activity telemetry into an operational SOC monitoring dashboard.
+
+The dashboard provides visibility into:
+
+- Total Azure administrative events
+- Failed administrative events
+- Administrative activity by status
+- Top Azure administrative operations
+
+The workbook uses KQL-based visualizations to provide security analysts with an overview of administrative activity and identify patterns that may require further investigation.
+
+### Dashboard Visualizations
+
+![ Workbook ]( screenshots/12-soc-workbook-visualizations.png )
