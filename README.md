@@ -436,4 +436,6 @@ The workbook uses KQL-based visualizations to provide security analysts with an 
 
 ### Dashboard Visualizations
 
-![ Workbook ]( screenshots/12-soc-workbook-visualizations.png )
+![ Workbook ]( screenshots/11-soc-workbook-dashboard.png
+
+screenshots/12-soc-workbook-visualizations.png )
